@@ -16,4 +16,9 @@ public class HelloWorldController {
 
     }
 
+    @GetMapping("maicos")
+    public String sayHellomaicos() {
+        return "Arriégua Maicos";
+    }
+
 }
